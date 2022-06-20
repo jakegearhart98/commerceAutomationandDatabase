@@ -1,0 +1,7 @@
+bot instructions.
+
+1. run amazonscrape.py (provide the url to the best selling page/ change variable in file)
+   (this gets url to all items from provided homepage)
+
+2. run amazonHTMLScraper.py (this scrapes the html data from each item on homepage and saves html data)
+

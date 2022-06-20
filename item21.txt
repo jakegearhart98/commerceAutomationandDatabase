@@ -1,0 +1,291 @@
+<div class="centerColAlign centerColAlign-bbcxoverride" id="centerCol">
+<div class="celwidget" data-cel-widget="title_feature_div" data-csa-c-id="fqjj0m-xfko95-guhrt2-te3e07" data-feature-name="title" id="title_feature_div">
+<style type="text/css">
+    .product-title-word-break {
+        word-break: break-word;
+    }
+</style>
+<div class="a-section a-spacing-none" id="titleSection"> <h1 class="a-size-large a-spacing-none" id="title"> <span class="a-size-large product-title-word-break" id="productTitle">        New Super Mario Bros. U Deluxe (Nintendo Switch)       </span> </h1> <div class="a-section a-spacing-none expand aok-hidden" id="expandTitleToggle"></div> </div> </div>
+<div class="celwidget" data-cel-widget="bylineInfo_feature_div" data-csa-c-id="5ct3o-m72htg-9qv5ev-bnj4oi" data-feature-name="bylineInfo" id="bylineInfo_feature_div">
+<div class="a-section a-spacing-none"> <a class="a-link-normal" href="/stores/Nintendo/page/BE0EB5D0-0AD6-4564-8BC5-4A129A3A9CFD?ref_=ast_bln" id="bylineInfo">Visit the Nintendo Store</a> </div> </div>
+<div class="celwidget" data-cel-widget="platformFeatureGroup" data-csa-c-id="sdq28u-a58ixf-3d4xgj-aq8h0e" data-feature-name="platformFeatureGroup" id="platformFeatureGroup">
+<style type="text/css">
+    #platformInformation_feature_div, #vgRating_feature_div, #digitalRights_feature_div  {
+        display: inline-block;
+        *display: inline;
+    }
+</style>
+<style>
+    #platformInformation_feature_div .bylinePipe {
+        float: right;
+    }
+</style>
+<div class="a-section a-spacing-none floatOnVgRating" id="platformInformation_feature_div"> <span class="a-text-bold"> Platform : </span>  Nintendo Switch   <span class="bylinePipe">|</span> </div> <div class="a-section a-spacing-none" id="vgRating_feature_div"> <span class="a-color-secondary">Rated:</span> <span class="a-declarative" data-a-popover="{&quot;position&quot;:&quot;triggerBottom&quot;,&quot;inlineContent&quot;:&quot;\u003cdiv class=\&quot;a-row\&quot;&gt; \u003cdiv class=\&quot;a-column a-span4 a-spacing-base\&quot;&gt; \u003cimg alt=\&quot;rating\&quot; src=\&quot;https://images-na.ssl-images-amazon.com/images/G/01/videogames/ratings/esrb-everyone._CB485945381_SS90_.gif\&quot; height=\&quot;90\&quot; width=\&quot;90\&quot;/&gt; \u003c\/div&gt; \u003cdiv class=\&quot;a-column a-span6 a-spacing-base\&quot;&gt; \u003cdiv class=\&quot;a-row\&quot;&gt;This title has been rated \u003cb&gt;Everyone\u003c\/b&gt;\u003c\/div&gt;  \u003cdiv class=\&quot;a-row\&quot;&gt;\u003ca href='/b/ref=dp_vg_help?_encoding=UTF8&amp;node=16416771011&amp;pop-up=1' target='AmazonHelp' onclick=\&quot;return amz_js_PopWin(this.href,'AmazonHelp','width=550,height=550,resizable=1,scrollbars=1,toolbar=0,status=0');\&quot;&gt;Learn more about video game ratings\u003c\/a&gt;\u003c\/div&gt; \u003c\/div&gt; \u003c\/div&gt;&quot;,&quot;popoverLabel&quot;:&quot;Learn more about ratings&quot;}" data-action="a-popover" data-csa-c-func-deps="aui-da-a-popover" data-csa-c-id="dcesj2-7vb5aw-d4nj0n-6k6lrq" data-csa-c-type="widget"> <a class="a-popover-trigger a-declarative" href="javascript:void(0)" role="button"> Everyone <i class="a-icon a-icon-popover"></i></a> </span> </div> </div>
+<div class="celwidget" data-cel-widget="averageCustomerReviews_feature_div" data-csa-c-id="aj75su-g17tsc-pdm5bl-dm380q" data-feature-name="averageCustomerReviews" id="averageCustomerReviews_feature_div">
+<style type="text/css">
+    /* 
+    * Fix for UDP-1061. Average customer reviews has a small extra line on hover 
+    * https://omni-grok.amazon.com/xref/src/appgroup/websiteTemplates/retail/SoftlinesDetailPageAssets/udp-intl-lock/src/legacy.css?indexName=WebsiteTemplates#40
+    */
+    .noUnderline a:hover { 
+        text-decoration: none; 
+    }
+</style>
+<div data-asin="B07HHN42WK" data-ref="dpx_acr_pop_" id="averageCustomerReviews">
+<span class="a-declarative" data-acrstarslink-click-metrics="{}" data-action="acrStarsLink-click-metrics" data-csa-c-func-deps="aui-da-acrStarsLink-click-metrics" data-csa-c-id="8w4l3h-6roxgf-mbp2a7-sbvvx9" data-csa-c-type="widget"> <span class="reviewCountTextLinkedHistogram noUnderline" id="acrPopover" title="4.8 out of 5 stars">
+<span class="a-declarative" data-a-popover='{"max-width":"700","closeButton":"false","position":"triggerBottom","url":"/gp/customer-reviews/widgets/average-customer-review/popover/ref=dpx_acr_pop_?contextId=dpx&amp;asin=B07HHN42WK"}' data-action="a-popover" data-csa-c-func-deps="aui-da-a-popover" data-csa-c-id="y231bb-n7ukkd-a6zzs6-5uxmbf" data-csa-c-type="widget"> <a class="a-popover-trigger a-declarative" href="javascript:void(0)" role="button"> <i class="a-icon a-icon-star a-star-5"><span class="a-icon-alt">4.8 out of 5 stars</span></i> <i class="a-icon a-icon-popover"></i></a> </span> <span class="a-letter-space"></span> </span>
+</span> <span class="a-letter-space"></span> <span class="a-declarative" data-acrlink-click-metrics="{}" data-action="acrLink-click-metrics" data-csa-c-func-deps="aui-da-acrLink-click-metrics" data-csa-c-id="869c4o-dtb9fw-1d5cj3-x1xnyd" data-csa-c-type="widget"> <a class="a-link-normal" href="#customerReviews" id="acrCustomerReviewLink"> <span class="a-size-base" id="acrCustomerReviewText">10,533 ratings</span> </a> </span> <script type="text/javascript">
+                    P.when('A', 'ready').execute(function(A) {
+                        A.declarative('acrLink-click-metrics', 'click', { "allowLinkDefault" : true }, function(event){
+                            if(window.ue) {
+                                ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                            }
+                        });
+                    });
+                </script>
+<script type="text/javascript">
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        </script>
+</div>
+</div>
+<div class="celwidget" data-cel-widget="acBadge_feature_div" data-csa-c-id="sf6l7r-8tdt2m-pseyx6-xwlawj" data-feature-name="acBadge" id="acBadge_feature_div">
+<div class="ac-badge-wrapper" cssclass="aok-float-left">
+<div class="a-popover-preload" id="a-popover-amazons-choice-popover"> <span class="a-size-small"> Amazon's Choice highlights highly rated, well-priced products available to ship immediately. </span> </div> <span class="a-declarative" data-a-popover='{"name":"amazons-choice-popover","position":"triggerTop"}' data-action="a-popover" data-csa-c-func-deps="aui-da-a-popover" data-csa-c-id="thsdd0-8d7z3n-h30uqd-6ab0yd" data-csa-c-type="widget"> <span class="a-size-small aok-float-left ac-badge-rectangle"> <span class="ac-badge-text-primary ac-white">Amazon's </span> <span class="ac-badge-text-secondary ac-orange">Choice</span> </span> <span class="aok-float-left ac-badge-triangle"></span> </span> <span class="ac-for-text">
+<span>for "<span class="ac-keyword-link"><a href="/s/ref=choice_dp_b?keywords=nintendo%20switch%20mario">nintendo switch mario</a></span>"</span> </span>
+</div>
+<script data-a-state='{"key":"acState"}' type="a-state">{"acAsin":"B07HHN42WK"}</script> </div>
+<div class="celwidget" data-cel-widget="climatePledgeFriendlyATF_feature_div" data-csa-c-id="aclce2-mzx2jg-iccx2j-icbmmz" data-feature-name="climatePledgeFriendlyATF" id="climatePledgeFriendlyATF_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="zeitgeistBadge_feature_div" data-csa-c-id="4o1k2o-d9knwb-vvshi5-nz2d5i" data-feature-name="zeitgeistBadge" id="zeitgeistBadge_feature_div">
+</div>
+<hr/> <div class="celwidget" data-cel-widget="desktop_unifiedPrice" data-csa-c-id="d5asiv-ilniid-3h8jsu-yytt5" data-feature-name="desktop_unifiedPrice" id="desktop_unifiedPrice">
+<div class="celwidget" data-cel-widget="unifiedPrice_feature_div" data-csa-c-id="fyjbma-d3jqhj-8cmxny-p4f67e" data-feature-name="unifiedPrice" id="unifiedPrice_feature_div">
+<div class="a-section a-spacing-small" id="price"> <table class="a-lineitem"> <tbody><tr> <td class="a-color-secondary a-size-base a-text-right a-nowrap">List Price:</td> <td class="a-span12 a-color-secondary a-size-base"> <span class="priceBlockStrikePriceString a-text-strike"> $59.99</span> <span id="listPriceLegalMessage"> <a class="a-link-normal" href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GQ6B6RH72AX8D2TD&amp;ref_=dp_hp">Details</a>
+</span> <style>
+    #listPriceLegalMessageText {
+        margin-left: 5px !important;
+    }
+    
+    #listPriceLegalMessage .a-popover-trigger:hover {
+        text-decoration: underline !important;
+    }
+    
+    #listPriceLegalMessage .a-icon-popover {
+        display: inline-block !important;
+        margin-left: 0px !important;
+        margin-top: 6px !important;
+    }
+
+    .reinventPrice_legalMessage_icon {
+        width: 12px;
+        fill: #969696;
+        vertical-align: middle;
+        padding-bottom: 2px;
+    }
+
+    .reinventPrice_legalMessage_icon:hover {
+        fill: #555555;
+    }
+</style> </td> </tr> <tr id="priceblock_ourprice_row"> <td class="a-color-secondary a-size-base a-text-right a-nowrap" id="priceblock_ourprice_lbl">Price:</td> <td class="a-span12"> <span class="a-size-medium a-color-price priceBlockBuyingPriceString" id="priceblock_ourprice">$52.75</span> <!-- For LightningDeal use case, agsShippingAndIfdInsideBuyBox is only configured on regular offer, so set defaultPageContext as buyingPrice -->
+<span id="ourprice_shippingmessage"> <span class="a-size-base a-color-base" id="price-shipping-message"></span> <span class="a-hidden" id="creturns-return-policy-linebreak"></span> <span class="a-inline-block" id="creturns-return-policy-content"> <span id="creturns-return-policy-separator">&amp;</span> <span class="a-inline-block" id="creturns-return-policy-message"> <span class="a-declarative" data-a-popover='{"max-width":"280","name":"cReturnsPolicyPopover","activate":"onclick","position":"triggerBottom"}' data-action="a-popover" data-csa-c-func-deps="aui-da-a-popover" data-csa-c-id="1l57du-1n0yzz-tuuwq1-666bqo" data-csa-c-type="widget"> <span cel_widget_id="free-returns-policy-anchorText-pc" class="celwidget" data-cel-widget="free-returns-policy-anchorText-pc" data-csa-c-id="dr1qtz-2fmtaf-7xw6gk-5y9mgy" id="free-returns-policy-celWidget">
+<a class="a-popover-trigger a-declarative a-inline-block" href="javascript:void(0)" id="creturns-policy-anchor-text" role="button"> FREE Returns <i class="a-icon a-icon-popover"></i></a> </span>
+</span> <div class="a-popover-preload" id="a-popover-cReturnsPolicyPopover"> <div cel_widget_id="free-returns-policy-popover-pc" class="celwidget" data-cel-widget="free-returns-policy-popover-pc" data-csa-c-id="fg38n2-e7oiqm-rvcyir-tx9vga" id="free-returns-policy-popover-celWidget">
+<span class="a-text-bold">Return this item for free</span> <ul class="a-unordered-list a-nostyle a-vertical a-spacing-top-small"> <li><span class="a-list-item">Free returns are available for the shipping address you chose. You can return the item for any reason in new and unused condition: no shipping charges </span></li> <li><span class="a-list-item"> <a class="a-link-normal" href="/freereturns" id="creturns-policy-url-text-pc"> Learn more about free returns. </a> </span></li> </ul> <div class="a-row a-expander-container a-expander-inline-container" data-a-expander-name="creturnsHowToReturnExpander"> <a aria-expanded="false" class="a-expander-header a-declarative a-expander-inline-header a-link-expander" data-a-expander-toggle='{"allowLinkDefault":true, "expand_prompt":"", "collapse_prompt":""}' data-action="a-expander-toggle" data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-id="glblo4-dnssee-asu36v-kaa20t" data-csa-c-type="widget" data-csa-interaction-events="click" href="javascript:void(0)" role="button"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">How to return the item?</span></a> <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" id="creturnsHowToReturnExpanderContent" style="display:none"> <ol class="a-ordered-list a-vertical"> <li><span class="a-list-item">Go to your orders and start the return</span></li> <li><span class="a-list-item">Select the return method</span></li> <li><span class="a-list-item">Ship it!</span></li> </ol> </div> </div> </div> </div> </span> </span> </span> </td> </tr> <tr id="regularprice_savings"> <td class="a-color-secondary a-size-base a-text-right a-nowrap">You Save:</td> <td class="a-span12 a-color-price a-size-base priceBlockSavingsString">    $7.24 (12%)    </td> </tr> </tbody></table> </div> </div>
+</div>
+<div class="celwidget" data-cel-widget="promoPriceBlockMessage_feature_div" data-csa-c-id="wonvg4-orqels-f22b07-k0lq5v" data-feature-name="promoPriceBlockMessage" id="promoPriceBlockMessage_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="pmpux_feature_div" data-csa-c-id="d8h95x-ok2zjz-hwftrl-awuuq" data-feature-name="pmpux" id="pmpux_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="applicablePromotionList_feature_div" data-csa-c-id="340odo-ao3yxz-us8osa-j5hskm" data-feature-name="applicablePromotionList" id="applicablePromotionList_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="b2bUpsell_feature_div" data-csa-c-id="5k22rl-2rjjxt-ddj5wk-w2r34m" data-feature-name="b2bUpsell" id="b2bUpsell_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="issuancePriceblockAmabot_feature_div" data-csa-c-id="thiwtp-8oibz7-7ugmtr-w5b31b" data-feature-name="issuancePriceblockAmabot" id="issuancePriceblockAmabot_feature_div">
+<div>
+<div class="maple-banner">
+<style type="text/css">
+    
+
+    
+
+    .maple-banner--background {
+    background: #fff;
+    
+}
+
+    
+
+    .maple-banner > a {
+  width: fit-content;
+}
+
+.maple-banner__container {
+  display: table;
+}
+
+.maple-banner__row {
+  display: table-row;
+}
+
+.maple-banner__col {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+  </style>
+<a class="a-link-normal aok-block aok-align-center-horizontally" href="/gp/cobrandcard/marketing.html/ref=unrec_a_cbcc_pb_50gc_t1_m?pr=con321&amp;inc=50gcUnrec&amp;ts=716y2gh8ibnsi529d3oq0eqnuz59adx&amp;dasin=B07HHN42WK&amp;plattr=CB50PB&amp;place=priceblock&amp;imp=20579cc4-6ee2-4053-bf47-49c039986dcd">
+<div class="a-section maple-banner__container maple-banner--background maple-banner--border">
+<div class="a-section maple-banner__row">
+<div class="a-section a-padding-base maple-banner__col">
+<div class="a-section maple-banner__text">
+            Get <span data-maple-math="promo-amount">$50</span> off instantly: Pay <span data-maple-math="cost-after-savings">$2.75</span> <span style="text-decoration: line-through"><span data-maple-math="cost">$52.75</span></span> upon approval for the Amazon Rewards Visa Card. No annual fee.
+          </div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="celwidget" data-cel-widget="dtgSubscription_feature_div" data-csa-c-id="x7fj8x-2iwwf0-55sl3u-2lxoo5" data-feature-name="dtgSubscription" id="dtgSubscription_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="alternativeOfferEligibilityMessaging_feature_div" data-csa-c-id="m05iza-bmjhen-r4bthr-3qldh1" data-feature-name="alternativeOfferEligibilityMessaging" id="alternativeOfferEligibilityMessaging_feature_div">
+<div class="a-section"> <div class="a-section a-spacing-small"> <div class="a-section" id="all-offers-display"> <div class="a-spinner-wrapper aok-hidden" id="all-offers-display-spinner"><span class="a-spinner a-spinner-medium"></span></div> <form action="" autocomplete="off" class="aok-hidden all-offers-display-params" method="get"> <input id="all-offers-display-reload-param" name="" type="hidden" value="true"/> <input data-asin="B07HHN42WK" data-m="" data-qid="" data-smid="" data-sourcecustomerorglistid="" data-sourcecustomerorglistitemid="" data-sr="" id="all-offers-display-params" name="" type="hidden"/> </form> </div> <span class="a-declarative" data-action="close-all-offers-display" data-close-all-offers-display="{}" data-csa-c-func-deps="aui-da-close-all-offers-display" data-csa-c-id="ymbaxz-kb8iyt-u640ge-2rwko2" data-csa-c-type="widget"> <div class="a-section aok-hidden aod-darken-background" id="aod-background"> </div> </span> <script type="application/javascript">
+    P.when("A", "load").execute("aod-assets-loaded", function(A){
+        function logAssetsNotLoaded() {
+            if (window.ueLogError) {
+                var customError = { message: 'Failed to load AOD assets for WDG: video_games_display_on_website, Device: web' };
+                var additionalInfo = {
+                    logLevel : 'ERROR',
+                    attribution : 'aod_assets_not_loaded'
+                };
+                ueLogError (customError, additionalInfo);
+            }
+            if (window.ue && window.ue.count) {
+                window.ue.count("aod-assets-not-loaded", 1);
+            }
+        }
+
+        function verifyAssetsLoaded() {
+            var assetsLoadedPageState = A.state('aod:assetsLoaded');
+            var logAssetsNotLoadedState = A.state('aod:logAssetsNotLoaded');
+
+            if((assetsLoadedPageState == null || !assetsLoadedPageState.isAodAssetsLoaded)
+                && (logAssetsNotLoadedState == null || !logAssetsNotLoadedState.isAodAssetsNotLoadedLogged)) {
+                A.state('aod:logAssetsNotLoaded', {isAodAssetsNotLoadedLogged: true});
+                logAssetsNotLoaded();
+            }
+        }
+
+        setTimeout(verifyAssetsLoaded, 50000)
+    });
+</script> <span class="a-declarative" data-action="show-all-offers-display" data-csa-c-func-deps="aui-da-show-all-offers-display" data-csa-c-id="1h5nev-3ezoc9-tmh5mx-lcaqb0" data-csa-c-type="widget" data-show-all-offers-display="{}"> Available at a lower price from <a href="/gp/offer-listing/B07HHN42WK/ref=dp_olp_pn">other sellers</a> that may not offer free Prime shipping. </span> </div> </div> </div>
+<div class="celwidget" data-cel-widget="promiseBasedBadge_feature_div" data-csa-c-id="7ob2fn-jllzdq-nqim0e-uzjfnc" data-feature-name="promiseBasedBadge" id="promiseBasedBadge_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="availability_feature_div" data-csa-c-id="83zmmo-1bzy8j-9sasne-ryz0co" data-feature-name="availability" id="availability_feature_div">
+<style>
+    .availabilityMoreDetailsIcon {
+        width: 12px;
+        vertical-align: baseline;
+        fill: #969696;
+    }
+</style> </div>
+<div class="celwidget" data-cel-widget="globalStoreBadgePopover_feature_div" data-csa-c-id="uu9ige-wayio0-clw0a6-c4fvve" data-feature-name="globalStoreBadgePopover" id="globalStoreBadgePopover_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="dpFastTrack_feature_div" data-csa-c-id="vbao0j-qrk03b-uzbvur-h9vhph" data-feature-name="dpFastTrack" id="dpFastTrack_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="deepCheckPromise_feature_div" data-csa-c-id="ps2t5l-3wtsti-yk9t98-f9d022" data-feature-name="deepCheckPromise" id="deepCheckPromise_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="shipsFromSoldBy_feature_div" data-csa-c-id="kcmdix-7evx2v-tlkih8-wv569g" data-feature-name="shipsFromSoldBy" id="shipsFromSoldBy_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="businessPricing_feature_div" data-csa-c-id="lvb2al-a4ltfc-yd1iou-xlbs1g" data-feature-name="businessPricing" id="businessPricing_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="howItWorks_feature_div" data-csa-c-id="n0hk82-mffxme-u82w4j-jnh6a1" data-feature-name="howItWorks" id="howItWorks_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="dsvTermsOfUse_feature_div" data-csa-c-id="h51rrl-wu9tk6-ri16c2-ffu347" data-feature-name="dsvTermsOfUse" id="dsvTermsOfUse_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="returnPolicyMessage_feature_div" data-csa-c-id="37fyvm-4dqdv0-fbb8tk-f6kf8c" data-feature-name="returnPolicyMessage" id="returnPolicyMessage_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="buyingRights_feature_div" data-csa-c-id="vfrmsf-e5ajo5-rx1h2r-j4d0wq" data-feature-name="buyingRights" id="buyingRights_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="dsvDownloadInformation_feature_div" data-csa-c-id="t4p08e-7sbdr3-5ueif9-j9er2" data-feature-name="dsvDownloadInformation" id="dsvDownloadInformation_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="twister_feature_div" data-csa-c-id="nzd4l8-vr2roz-zc1vt6-koefe8" data-feature-name="twister" id="twister_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="valuePick_feature_div" data-csa-c-id="k2ay2s-yyd531-6hlft1-mic8zb" data-feature-name="valuePick" id="valuePick_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="twisterPlusWWDesktop" data-csa-c-id="ria5hm-cv57i2-z2eftn-6uz7v6" data-feature-name="twisterPlusWWDesktop" id="twisterPlusWWDesktop">
+<div class="a-section a-spacing-large aok-hidden" id="twister-plus-feature"> <h3 class="a-spacing-small a-spacing-top-large twister-plus-header"> Enhance your purchase </h3> <hr aria-hidden="true" class="a-spacing-small a-divider-normal twister-plus-divider"/> <div class="a-section aok-hidden" data-multiple-card-invalid-or-selection-invalid-message="Enhancements you chose aren't available for this option" data-multiple-details-update-or-cards-refresh-message="Enhancements you chose have been updated" data-single-card-invalid-message="###cardName not available for this option" data-single-details-update-message="###cardName you chose has been updated" data-single-selection-invalid-message="###cardName you chose isn't available for this option" id="tp-cc-cards-refresh-strings"> </div> <div class="a-section aok-hidden" id="tp-cc-cards-refresh-red-notification"> <div class="a-box a-alert-inline a-alert-inline-error" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content"></div></div></div> </div> <div class="a-section aok-hidden" id="tp-cc-cards-refresh-green-notification"> <div aria-atomic="true" aria-live="polite" class="a-box a-alert-inline a-alert-inline-info"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content"></div></div></div> </div> <input id="twister-plus-active-cards" type="hidden" value=""/> <input class="aok-hidden" id="twister-plus-checkbox" type="checkbox"/>
+</div> <input id="twister-plus-device-type" type="hidden" value="web"/>
+<input id="twister-plus-eligible" type="hidden" value="true"/>
+<input id="ccCardsRendered" type="hidden" value="false"/>
+<input id="twister-plus-asin" type="hidden" value="B07HHN42WK"/>
+<input id="twister-plus-offer-listing-id" type="hidden" value="aOK6Tt%2BgLN0BY6nhm8IzQqFqoFL%2FAvYlYeQOAyvq0OBCmTcuVAmrhFRPDNMv6FNQ4eYTw0bH1MgfOWyVW%2B9YG9HTrqhJ50cWyBUMNwDgz8M5ffegXUz3ymB24%2F8ernZRbgrULzki%2B9gH2KTUvQkT%2F%2BS5VS7NVDl9ke7lb7d3baxweKJw%2FnJM0w%3D%3D"/> <div class="a-section aok-hidden" id="twister-plus-side-sheet-content"> <div class="a-section" id="tp-side-sheet"> <div class="a-section aok-hidden twister-plus-side-sheet-content-padding" id="tp-side-sheet-main-section"> </div> </div> </div> <span class="a-declarative" data-action="close-side-sheet" data-close-side-sheet="{}" data-csa-c-func-deps="aui-da-close-side-sheet" data-csa-c-id="qq9aq4-3x67qy-h55huv-p2z8b8" data-csa-c-type="widget"> <div class="a-section aok-hidden twister-plus-darken-bg" id="twister-plus-dp-bg"> <i aria-label="close" class="a-icon a-icon-close a-icon-medium twister-plus-close-button" role="img"></i> </div> </span> </div>
+<div class="celwidget" data-cel-widget="renewedProgramDescriptionAtf_feature_div" data-csa-c-id="nq431k-eo7zed-hfs5a9-rpcqmt" data-feature-name="renewedProgramDescriptionAtf" id="renewedProgramDescriptionAtf_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="featurebullets_feature_div" data-csa-c-id="o0oiza-tvx35t-mscov3-aync8z" data-feature-name="featurebullets" id="featurebullets_feature_div">
+<div class="a-section a-spacing-medium a-spacing-top-small" id="feature-bullets"> <hr/>
+<h1 class="a-size-base-plus a-text-bold"> About this item </h1> <ul class="a-unordered-list a-vertical a-spacing-mini"> <li><span class="a-list-item"> Compatible with Nintendo Switch only  </span></li> </ul> <!-- Loading EDP related metadata -->
+</div> </div>
+<div class="celwidget" data-cel-widget="provenanceCertifications_feature_div" data-csa-c-id="rz6uou-neypjn-q7a06-u9t01l" data-feature-name="provenanceCertifications" id="provenanceCertifications_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="serviceCapabilities_feature_div" data-csa-c-id="2bv1zl-30ak81-h5es1q-7lovqg" data-feature-name="serviceCapabilities" id="serviceCapabilities_feature_div">
+<div class="a-section a-spacing-none a-spacing-top-micro" id="vas-service-capabilities"><script data-a-state='{"key":"vas-service-capabilities-model"}' type="a-state">{"widgetName":"serviceCapabilties"}</script></div> </div>
+<div class="celwidget" data-cel-widget="globalStoreInfoBullets_feature_div" data-csa-c-id="iiedrt-s6eh6i-qo84gf-w2ug31" data-feature-name="globalStoreInfoBullets" id="globalStoreInfoBullets_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="vendorPoweredCoupon_feature_div" data-csa-c-id="rdja3l-7y04bo-e4e3dn-9rg1d3" data-feature-name="vendorPoweredCoupon" id="vendorPoweredCoupon_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="addOnItem_feature_div" data-csa-c-id="97zfo-vq7n36-vo3dwl-7hndz1" data-feature-name="addOnItem" id="addOnItem_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="giftcard-holiday-availability-messaging_feature_div" data-csa-c-id="drxcni-loct9z-8fcrsz-3gx8hy" data-feature-name="giftCardHolidayAvailabilityMessaging" id="giftcard-holiday-availability-messaging_feature_div">
+<!--giftCardHolidayAvailabilityMessaging_placeholder--> </div>
+<div class="celwidget" data-cel-widget="andonCord_feature_div" data-csa-c-id="b5ell-px7zod-wfevu6-e4g2t4" data-feature-name="andonCord" id="andonCord_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="olp_feature_div" data-csa-c-id="xlwadf-5ldw8-sk3gw0-6oauwu" data-feature-name="olp" id="olp_feature_div">
+<div class="a-section" id="all-offers-display"> <div class="a-spinner-wrapper aok-hidden" id="all-offers-display-spinner"><span class="a-spinner a-spinner-medium"></span></div> <form action="" autocomplete="off" class="aok-hidden all-offers-display-params" method="get"> <input id="all-offers-display-reload-param" name="" type="hidden" value="true"/> <input data-asin="B07HHN42WK" data-m="" data-qid="" data-smid="" data-sourcecustomerorglistid="" data-sourcecustomerorglistitemid="" data-sr="" id="all-offers-display-params" name="" type="hidden"/> </form> </div> <span class="a-declarative" data-action="close-all-offers-display" data-close-all-offers-display="{}" data-csa-c-func-deps="aui-da-close-all-offers-display" data-csa-c-id="46bltc-o9xl37-5ssjfs-fjn0ga" data-csa-c-type="widget"> <div class="a-section aok-hidden aod-darken-background" id="aod-background"> </div> </span> <script type="application/javascript">
+    P.when("A", "load").execute("aod-assets-loaded", function(A){
+        function logAssetsNotLoaded() {
+            if (window.ueLogError) {
+                var customError = { message: 'Failed to load AOD assets for WDG: video_games_display_on_website, Device: web' };
+                var additionalInfo = {
+                    logLevel : 'ERROR',
+                    attribution : 'aod_assets_not_loaded'
+                };
+                ueLogError (customError, additionalInfo);
+            }
+            if (window.ue && window.ue.count) {
+                window.ue.count("aod-assets-not-loaded", 1);
+            }
+        }
+
+        function verifyAssetsLoaded() {
+            var assetsLoadedPageState = A.state('aod:assetsLoaded');
+            var logAssetsNotLoadedState = A.state('aod:logAssetsNotLoaded');
+
+            if((assetsLoadedPageState == null || !assetsLoadedPageState.isAodAssetsLoaded)
+                && (logAssetsNotLoadedState == null || !logAssetsNotLoadedState.isAodAssetsNotLoadedLogged)) {
+                A.state('aod:logAssetsNotLoaded', {isAodAssetsNotLoadedLogged: true});
+                logAssetsNotLoaded();
+            }
+        }
+
+        setTimeout(verifyAssetsLoaded, 50000)
+    });
+</script> <div class="a-section a-spacing-small a-spacing-top-small"> <span class="a-declarative" data-action="show-all-offers-display" data-csa-c-func-deps="aui-da-show-all-offers-display" data-csa-c-id="ekmcs2-t6xnf1-vinsk7-x6ih41" data-csa-c-type="widget" data-show-all-offers-display="{}"> <a class="a-link-normal" href="/gp/offer-listing/B07HHN42WK/ref=dp_olp_ALL_mbc?ie=UTF8&amp;condition=ALL"> <span>New &amp; Used (68) from </span><span class="a-size-base a-color-price">$38.25</span> </a> </span> <span class="a-color-secondary a-size-base">+ $4.49 shipping</span> </div> </div>
+<div class="celwidget" data-cel-widget="edpIngress_feature_div" data-csa-c-id="24d6no-mg08ta-7m1y7d-jaaw9x" data-feature-name="edpIngress" id="edpIngress_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="newerVersion_feature_div" data-csa-c-id="84bog7-npwp2e-pt7653-3tc2rx" data-feature-name="newerVersion" id="newerVersion_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="certifiedRefurbishedVersion_feature_div" data-csa-c-id="dj088y-jh4p2w-th9xrv-y69zn1" data-feature-name="certifiedRefurbishedVersion" id="certifiedRefurbishedVersion_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="recommendations_feature_div" data-csa-c-id="la7lms-6virfi-av3oq0-14jxqg" data-feature-name="recommendations" id="recommendations_feature_div">
+</div>
+<div class="celwidget" data-cel-widget="productAlert_feature_div" data-csa-c-id="aqafp0-bxea6o-qi3vzd-gawpk0" data-feature-name="productAlert" id="productAlert_feature_div">
+</div>
+</div>
