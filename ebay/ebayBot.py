@@ -19,6 +19,9 @@ ebayHomeURL = "https://www.ebay.com/"
 
 df = pd.read_csv('name_and_price.txt')
 df.columns = ["Product Name", "Amazon Price"]
+productDataColumnNames = ["Product Name", "Amazon Price", "eBay Average", "Percentage Sold", "Total Amount of Listings"]
+productDataFrame = pd.DataFrame(columns = productDataColumnNames)
+print(productDataFrame)
 item_prices = []
 #print(df.iloc[0][0])
 
@@ -53,20 +56,25 @@ while count < 14:
     #I got this bit from geeksforgeeks https://www.geeksforgeeks.org/how-to-use-xpath-with-beautifulsoup/
     #dom = etree.HTML(str(soup))
     #product_list = driver.find_elements(By.XPATH, "//*[@id='srp-river-results']/ul/li")
-    listCount = 1
+    listCount = 2
     
     while listCount < 70:
-        try:
-            product = driver.find_element(By.XPATH, '//*[@id="srp-river-results"]/ul/li[%s]' %(listCount))
-            print(product.text)
+        #try:
+            #product = driver.find_element(By.XPATH, '//*[@id="srp-river-results"]/ul/li[%s]' %(listCount))
+            #itemSold = driver.find_element(By.XPATH, '//*[@id="srp-river-results"]/ul/li[%s]/div/div[2]/div[1]/div/span[l]' %(listCount))
+            productSoup = BeautifulSoup(driver.find_element(By.XPATH, '//*[@id="srp-river-results"]/ul/li[%s]' %(listCount)).text, features = 'lxml')
+            print(productSoup.prettify())
+            #print(itemSold)
             print(listCount)
-            #print(product_list)
             listCount += 1
+            #print(product_list)
             #time.sleep(2)
             #print(element)
-        except:
-            listCount = 71
+        #except:
+        #    listCount = 71
             pass
+
+            
     #time.sleep(3)
     
     count += 1
