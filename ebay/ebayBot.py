@@ -19,6 +19,7 @@ ebayHomeURL = "https://www.ebay.com/"
 
 df = pd.read_csv('name_and_price.txt')
 df.columns = ["Product Name", "Amazon Price"]
+item_prices = []
 #print(df.iloc[0][0])
 
 driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
@@ -50,20 +51,22 @@ while count < 14:
     soup = BeautifulSoup(pageSource, features = 'lxml')
 
     #I got this bit from geeksforgeeks https://www.geeksforgeeks.org/how-to-use-xpath-with-beautifulsoup/
-    dom = etree.HTML(str(soup))
+    #dom = etree.HTML(str(soup))
     #product_list = driver.find_elements(By.XPATH, "//*[@id='srp-river-results']/ul/li")
     listCount = 1
     
-    while listCount < 55:
-        
-            #product_list = soup.find_all(By.XPATH, "//*[@id='srp-river-results']/ul/li[%s]" %(listCount))
-            #item_price = driver.find_element(By.XPATH, '/html/body/div[5]/div[4]/div[2]/div[1]/div[2]/ul/li[3]/div/div[2]/div[3]/div[1]/span/span')
-            
+    while listCount < 70:
+        try:
+            product = driver.find_element(By.XPATH, '//*[@id="srp-river-results"]/ul/li[%s]' %(listCount))
+            print(product.text)
             print(listCount)
             #print(product_list)
             listCount += 1
             #time.sleep(2)
             #print(element)
+        except:
+            listCount = 71
+            pass
     #time.sleep(3)
     
     count += 1
