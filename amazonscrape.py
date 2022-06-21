@@ -24,17 +24,27 @@ def createURLExport(homeURL):
     #print(response.text)
 
     #here down is used to obtain links of each item in bestselling list
-    soup = BeautifulSoup(response.text, 'lxml')
+    soup = BeautifulSoup(response.text, 'html.parser')
     doc = soup.find_all(class_ = class_identifier)
-    with open('url_export.txt', 'w') as f:
+    #titles = soup.find_all(class_ = 'a-link-normal') ##HAVE IT PRINT OUT [1] OF TITLES LIST
+    #print(titles)
+    #for products in titles:
+    #    print(products.text)
+    count = 0
+    
+    for product in doc:
+        #with open
+        link = product.find(href = True)
+        productURL = root_url + link['href']
+        nameParse = str(link['href']).split("/")
+        count += 1
+        print(nameParse[1])
+        #print(link['href'])
+        #print(productURL)
+        #print(full_url)
+        
 
-        for product in doc:
-            link = product.find(href = True)
-            full_url = root_url + link['href']
-            f.write(full_url + '\n')
-            #print(full_url)
-
-    f.close()
+   # f.close()
 #end populate url_export.txt
 
-#createURLExport("https://www.amazon.com/Best-Sellers-Video-Games-Nintendo-Switch-Games/zgbs/videogames/16227133011/ref=zg_bs_nav_videogames_2_16227128011")
+createURLExport("https://www.amazon.com/Best-Sellers-Video-Games-Nintendo-Switch-Games/zgbs/videogames/16227133011/ref=zg_bs_nav_videogames_2_16227128011")
