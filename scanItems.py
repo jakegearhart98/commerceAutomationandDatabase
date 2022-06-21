@@ -4,11 +4,10 @@ import time, os
 import requests
 import numpy as np
 import pandas as pd
-import productClass
 
 def scanItemFiles():
     fileCount = 0
-
+    root = os.path.join('C:\\', 'Users', 'flake', 'Desktop', "amazonScraping")
     #product = productClass.ProductObject("")
     column_names = ["Product Name"]
 
@@ -17,8 +16,8 @@ def scanItemFiles():
     """
     with open("name_and_price.txt", "w")  as writeFile:
 
-        while (os.path.exists('item%s.txt' %fileCount)):
-            with open('item%s.txt' %fileCount, 'r') as openFile:
+        while (os.path.exists(root + os.path.join('\item_file_export\item%s.txt') %fileCount)):
+            with open(os.path.exists(root + os.path.join('\item_file_export\item%s.txt') %fileCount)) as openFile:
                 #print(html_Doc)
                 soup = BeautifulSoup(openFile.read(), features = 'lxml')
                 title = soup.find(id = "productTitle")

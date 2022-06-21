@@ -28,21 +28,23 @@ def createURLExport(homeURL):
 
     """
         URL from webpage gets parsed and that is the name, splits some and you get the name
+        Name, price, and productURL gets written to csv file
     """
-    with open((root + os.path.join('\productNames_export.txt')) ,'w') as writeFile:
+    with open((root + os.path.join('\productNames_export.csv')) ,'w') as writeFile:
         for product in doc:
             price = product.find(class_ = 'a-size-base a-color-price')
-            try:
-                print(price.text)
-            except:
-                print("Click link for price")
 
             link = product.find(href = True)
             productURL = root_url + link['href']
             nameParse = str(link['href']).split("/")
             
             #This prints the CSV file
-            writeFile.write("%s, %s\n" %(nameParse[1], productURL))
+            try:
+                writeFile.write("%s, %s, %s\n" %(nameParse[1], price.text, productURL))
+            except:
+                price = "Click link for price"
+                writeFile.write("%s, %s, %s\n" %(nameParse[1], price, productURL))
+
         
 #end populate url_export.txt
 

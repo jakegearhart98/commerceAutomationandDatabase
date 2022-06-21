@@ -9,7 +9,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
 from bs4 import BeautifulSoup
-import time
+import time, os
 from lxml import etree
 
 #driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
@@ -62,14 +62,13 @@ while count < 14:
         #try:
             #product = driver.find_element(By.XPATH, '//*[@id="srp-river-results"]/ul/li[%s]' %(listCount))
             #itemSold = driver.find_element(By.XPATH, '//*[@id="srp-river-results"]/ul/li[%s]/div/div[2]/div[1]/div/span[l]' %(listCount))
-            productSoup = BeautifulSoup(driver.find_element(By.XPATH, '//*[@id="srp-river-results"]/ul/li[%s]' %(listCount)).text, features = 'lxml')
-            print(productSoup.prettify())
+            productSoup = BeautifulSoup(driver.find_element(By.XPATH, '//*[@id="srp-river-results"]/ul/li[%s]' %(listCount)), 'html.parser')
+            
+            print(productSoup)
             #print(itemSold)
             print(listCount)
             listCount += 1
-            #print(product_list)
-            #time.sleep(2)
-            #print(element)
+
         #except:
         #    listCount = 71
             pass
