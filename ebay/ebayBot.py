@@ -54,6 +54,12 @@ def scanEbayPage(htmlPage):
 
 
 while count < dataFrameHeight:
+    totalAmount = 0 #Only past 60 items, add feature to select 240 feature
+    percentageSold = 0.0
+    amountNotSold = 0
+    amountSold = 0
+    productTitle = ""
+    priceSold = 0.0
     
     #this finds the search bar
     driver.find_element(By.ID, 'gh-ac').clear()
@@ -61,7 +67,7 @@ while count < dataFrameHeight:
     time.sleep(0.5)
     ###################
 
-    print('completed listing loading, starting your code')
+    
 
     soup_level1 = BeautifulSoup(driver.page_source, 'html.parser')
     middleSection = soup_level1.find(id ='srp-river-results')
@@ -69,37 +75,25 @@ while count < dataFrameHeight:
     
     for eachItem in itemList:
         dateSold = eachItem.find("span", class_='POSITIVE')
+        
         try:
-            print(dateSold.text)
+            dateList = str((dateSold.text)).split()
+            del(dateList[0])
+            dateList = " ".join(dateList)
+            amountSold += 1
+            #print(dateList)
+            
         except:
-            dateSold = False
-            print(dateSold)
-    #soup_level2 = BeautifulSoup(, 'html.parser')
-
-    """
-    for eachProduct in productCells:
-        #print(eachProduct)
-        soup = BeautifulSoup(eachProduct, '')
-        print(soup)
+            dateSold = "False"
+            amountNotSold += 1
+            #print("%i NOT sold" %(amountNotSold))
+            #print(dateSold)
+        totalAmount += 1
     
-    """
-
-    """
-    for eachProduct in productCells:
-        #print(eachProduct.text + '\n\n')
-        itemSold = eachProduct.find_element(By.CLASS_NAME, 's-item__title--tagblock ')
-        dateSoldSection = itemSold.find_element(By.CLASS_NAME, 'POSITIVE')
-        dateList = (dateSoldSection.text).split()
-        del(dateList[0])
-        dateSold = " ".join(dateList)
-        print(dateSold)
-        boolIemSold = True
-    """
-
-        #soldItemString.splitlines()
-        #print(soldItemString[0])
-    #print(productCell)
-    #print(driver.find_element(By.ID, 'srp-river-main'))
+    print("%i items sold" %(amountSold))
+    print("%i NOT sold" %(amountNotSold))
+    percentageSold = amountSold / totalAmount
+    print("Percentage of items sold %f" %(percentageSold))
     count += 1
 
-    print(count)
+    print('NEW ITEM STARTING')
