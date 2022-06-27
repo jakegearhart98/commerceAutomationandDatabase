@@ -22,9 +22,9 @@ def createURLExport(homeURL):
     #here down is used to obtain links of each item in bestselling list
     soup = BeautifulSoup(response.text, 'html.parser')
     doc = soup.find_all(class_ = class_identifier)
-    count = 0
     root = os.path.join('C:\\', 'Users', 'flake', 'Desktop', "amazonScraping")
-    print(root + os.path.join('\productNames_export.txt'))
+    #print(root + os.path.join('\productNames_export.txt'))
+
 
     """
         URL from webpage gets parsed and that is the name, splits some and you get the name
@@ -33,19 +33,21 @@ def createURLExport(homeURL):
     with open((root + os.path.join('\productNames_export.csv')) ,'w') as writeFile:
         for product in doc:
             price = product.find(class_ = 'a-size-base a-color-price')
-
+            
             link = product.find(href = True)
             productURL = root_url + link['href']
             nameParse = str(link['href']).split("/")
-            
+            nameParse = str(nameParse[1]).split("-")
+            nameParse = " ".join(nameParse)
+            print(nameParse)
             #This prints the CSV file
             try:
-                writeFile.write("%s, %s, %s\n" %(nameParse[1], price.text, productURL))
+                writeFile.write("%s, %s, %s\n" %(nameParse, price.text, productURL))
             except:
                 price = "Click link for price"
-                writeFile.write("%s, %s, %s\n" %(nameParse[1], price, productURL))
+                writeFile.write("%s, %s, %s\n" %(nameParse, price, productURL))
 
         
 #end populate url_export.txt
 
-createURLExport("https://www.amazon.com/Best-Sellers-Video-Games-Nintendo-Switch-Games/zgbs/videogames/16227133011/ref=zg_bs_nav_videogames_2_16227128011")
+createURLExport("https://www.amazon.com/Best-Sellers-Books-Textbooks/zgbs/books/465600/ref=zg_bs_nav_books_1")

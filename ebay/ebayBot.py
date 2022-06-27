@@ -1,3 +1,4 @@
+from doctest import master
 from itertools import count
 from lib2to3.pgen2 import driver
 from selenium import webdriver
@@ -39,8 +40,8 @@ driver.get(ebayHomeURL)
 driver.find_element(By.ID, "gh-ac").send_keys(df.iloc[count][0], Keys.ENTER)
 #time.sleep(2)
 #clicks completed listing, only needs to be activated once at the beginning then ebay doesn't switch you out of that setting
-completedItemsBar = driver.find_element(By.XPATH, "/html/body/div[5]/div[3]")
-completedItemsBar.find_element(By.NAME, 'LH_Complete').click()
+#completedItemsBar = driver.find_element(By.XPATH, "/html/body/div[5]/div[3]")
+driver.find_element(By.XPATH, '//*[@id="x-refine__group__8"]/ul/li[4]/div/a/div/span').click()
 
 time.sleep(1)
 
@@ -63,6 +64,7 @@ while count < dataFrameHeight:
     #driver.find_element(By.ID, 'gh-ac-box2').clear()
     time.sleep(0.5)
     driver.find_element(By.CSS_SELECTOR, "#gh-ac").clear()
+    time.sleep(0.1)
     driver.find_element(By.CSS_SELECTOR, "#gh-ac").send_keys(df.iloc[count][0], Keys.ENTER)
     time.sleep(0.2)
     ###################
@@ -112,7 +114,7 @@ while count < dataFrameHeight:
                                             "Price Sold For" : [price], "eBay Item URL": [titleURL], "Shipping Price": shippingPrice}, columns = singleProductColumns)
         #print(singleProductDataFrame)
         masterProductFrame = pd.merge(singleProductDataFrame, masterProductFrame, how = 'outer')
-        print(masterProductFrame)
+        #print(masterProductFrame)
         
     """
     print("%i items sold" %(amountSold))
@@ -120,9 +122,11 @@ while count < dataFrameHeight:
     percentageSold = amountSold / totalAmount
     print("Percentage of items sold %f" %(percentageSold))
     """
-
+    #change file name to export <ebay ID.txt> as file name
+    masterProductFrame.to_csv("%s.csv" %(df.iloc[count][0]))
 
     #singleProductDataFrame = pd.DataFrame({"Date Sold": [dateSold]}, columns = productDataColumnNames)
     #print(productDataFrame)
+    print(masterProductFrame)
     print('NEW ITEM STARTING')
     count += 1
