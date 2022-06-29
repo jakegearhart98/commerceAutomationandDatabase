@@ -26,6 +26,7 @@ def createURLExport(homeURL):
     #print(root + os.path.join('\productNames_export.txt'))
 
 
+    
     """
         URL from webpage gets parsed and that is the name, splits some and you get the name
         Name, price, and productURL gets written to csv file
@@ -39,7 +40,7 @@ def createURLExport(homeURL):
             nameParse = str(link['href']).split("/")
             nameParse = str(nameParse[1]).split("-")
             nameParse = " ".join(nameParse)
-            print(nameParse)
+
             #This prints the CSV file
             try:
                 writeFile.write("%s, %s, %s\n" %(nameParse, price.text, productURL))
@@ -50,4 +51,4 @@ def createURLExport(homeURL):
         
 #end populate url_export.txt
 
-createURLExport("https://www.amazon.com/Best-Sellers-Books-Textbooks/zgbs/books/465600/ref=zg_bs_nav_books_1")
+createURLExport("https://www.amazon.com/Best-Sellers-Nintendo-Switch-Games/zgbs/videogames/16227133011")
